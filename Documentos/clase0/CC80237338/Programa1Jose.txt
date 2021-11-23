@@ -1,0 +1,31 @@
+>>> nombre=input("Ingrese nombre:")
+Ingrese nombre:Jose
+>>> a=20
+>>> b=10
+>>> print(a*b)
+200
+>>> from math import *
+>>> a=int(input("Ingrese coef a\n"))
+Ingrese coef a
+1
+>>> b=int(input("Ingrese coef b\n"))
+Ingrese coef b
+3
+>>> c=int(input("Ingrese coef c\n"))
+Ingrese coef c
+1
+>>> x1=0
+>>> x2=0
+
+>>> if((b**2)-4*a*c)<0:
+...     print("Solucion compleja")
+... else:
+...     x1=(-b+sqrt((b**2)-(4*a*c)))/(2*a)
+...     x2=(-b-sqrt((b**2)-(4*a*c)))/(2*a)
+...     print("Las soluciones son:")
+...     print(x1)
+...     print(x2)
+... 
+Las soluciones son:
+-0.3819660112501051
+-2.618033988749895
